@@ -3,7 +3,7 @@ body {
     padding: 0;
 }
 
-/* desktop */
+/* desktop */  
 
 .container {
     display: grid;
@@ -44,12 +44,13 @@ body {
 /* article */
 
 h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
     font-size: 1.5rem;
     color: #fff;
 }
 
 p {
+    font-family: 'Lexend Deca', sans-serif;
     font-size: 15px;
     color: #fff;
     font-weight: 600;
@@ -57,32 +58,47 @@ p {
 
 /* button-cards */
 
-button {
-    margin-top: 25px;
+.card-one .btn a {
     border: none;
+    background-color: #fff;
     border-radius: 20px;
-    padding: 10px 15px;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    color:hsl(31, 77%, 52%);
 }
 
-button:hover {
+.card-two .btn a {
+    border: none;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    color:hsl(184, 100%, 22%);
+}
+
+.card-three .btn a {
+    border: none;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    color:hsl(179, 100%, 13%);
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+.btn:hover {
     transform: scale(1.05);
     transition: .8s;
     cursor: pointer;
-}
-
-.card-one button {
-    color: hsl(31, 77%, 52%);
-    font-weight: 700;
-}
-
-.card-two button {
-    color: hsl(184, 100%, 22%);
-    font-weight: 700;
-}
-
-.card-three button {
-    color: hsl(179, 100%, 13%);
-    font-weight: 700;
 }
 
 /* footer-desktop*/
@@ -137,7 +153,12 @@ footer a {
         padding: 30px;
         background-color: hsl(179, 100%, 13%);
     }
-  footer {
-    margin-bottom: 20px;
-  }
+
+    footer {
+        margin-bottom: 20px;
+      }
+
+      .attribution {
+        word-break: break-all;
+      }
 }
